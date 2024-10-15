@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- FUENTE GOOGLE FONTS : Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- ICONS: Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <!-- ICONS: Line Awesome -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Animaciones AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+    <!-- Mis Estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Tour</title>
+    
+    <!-- Fuente elegante y moderna -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Iconos FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="container">
+        <div class="d-flex justify-content-between align-items-center py-3">
+            <!-- Logo del hotel -->
+            <div class="logo">
+                <a href="index.html">
+                <img src="img/logo-1.png" alt="Hotel Elegante" style="width: 100px;"/>
+                </a>
+            </div>
+
+            <!-- Menú de navegación -->
+            <nav class="navbar">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="pestañas/Ubicaciones.html"><i class="fas fa-map-marker-alt"></i> Ubicaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="pestañas/Experiencias.html"><i class="fas fa-star"></i> Experiencias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="pestañas/Tienda.html"><i class="fas fa-shopping-bag"></i> Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="pestañas/Nuestra-Historia.html"><i class="fas fa-book"></i> Nuestra Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark btn btn-primary text-dark" href="index.html#agendar"><i class="fas fa-calendar-alt"></i> Reserva Ahora</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Scripts de Bootstrap y FontAwesome -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+    
+    
+        <!-- =================================
+           BANNER
+        ================================== -->
+        <div class="hm-banner">
+            <div class="img-banner">
+                <img src="img/banner-1.jpg">
+            </div>
+            <a href=""></a>
+        </div>
+ 
+
+
+
+
+
+        <!-- =================================
+           HOME CATEGROIAS
+        ================================== -->
+  
+
+
+
+        <!-- Nueva franja para destino y fechas con subtítulos y comportamiento de selector al hacer clic -->
+        <section class="reservation-bar py-5">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <!-- Caja grande -->
+                    <div class="col-lg-8 col-md-10">
+                        <div class="reservation-box p-4">
+                            <div class="row">
+
+
+                                <!-- Campo destino con subtítulo y caja de texto que despliega selector -->
+                                <h2 id="agendar"></h2>
+                                <div class="col-md-6">
+                                    <h5 class="mb-2">Destino</h5>
+                                    <input type="text" class="form-control" id="destino-input" placeholder="¿A dónde deseas ir?" readonly>
+                                </div>
+        
+                                <!-- Campo fechas con subtítulo y date picker -->
+                                <div class="col-md-6">
+                                    <h5 class="mb-2">Fechas</h5>
+                                    <input type="date" class="form-control" id="dates">
+                                </div>
+                            </div>
+        
+                            <!-- Botón de reserva, pegado a la derecha -->
+                            <div class="text-end mt-3">
+                                <button class="btn btn-primary btn-reservation">Reserva Ahora</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+
+
+        <div class="hm-page-block">
+            <div class="container">
+                <div class="header-title">
+                    <h1  data-aos="fade-up" data-aos-duration="3000">Hotel Tour hace que cada estancia sea insuperable, siempre creciendo, pero manteniendo la comodidad y familiaridad para todos.</h1>
+                </div>
+
+
+
+
+
+
+                <div class="hm-grid-category">
+
+                    <div class="grid-item" data-aos="fade-up" data-aos-duration="1000">
+                        <a href="index.html#agendar">
+                            <img src="img/image-1.png" alt="">
+                            <div class="c-info">
+                                <h3>EN EL CENTRO DE LA HOSPITALIDAD</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item" data-aos="fade-up" data-aos-duration="1500">
+                        <a href="index.html#agendar">
+                            <img src="img/image-2.jpg" alt="">
+                            <div class="c-info">
+                                <h3>CADA DETALLE CUIDADOSAMENTE PENSADO</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item" data-aos="fade-up" data-aos-duration="2000">
+                        <a href="index.html#agendar">
+                            <img src="img/image-3.jpg" alt="">
+                            <div class="c-info">
+                                <h3>DEJA QUE TU ESTANCIA TE LLEVE UN POCO MÁS ALLÁ</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item" data-aos="fade-up" data-aos-duration="2500">
+                        <a href="index.html#agendar">
+                            <img src="img/image-4.png" alt="">
+                            <div class="c-info">
+                                <h3>LA RELAJACIÓN ESTÁ EN LOS DETALLES</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    <title>HABITACIONES CON ESTILO Y MUCHAS COSAS MÁS</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Banner container */
+        .banner {
+            position: relative;
+            background-image: url(img/banner-2.jpg); /* Imagen del banner */
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        /* Cuadro de texto */
+        .banner-text {
+            background-color: white;
+            color: black;
+            padding: 20px;
+            width: 400px;
+            margin-right: 50px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Estilo del texto */
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .banner {
+                height: 300px;
+            }
+
+            .banner-text {
+                width: 300px;
+                margin-right: 20px;
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="banner">
+        <div class="banner-text">
+            <h1>HABITACIONES CON ESTILO Y MUCHAS COSAS MÁS</h1>
+            <p>Con tecnología de vanguardia, un diseño sofisticado y una cuidadosa atención a los detalles, nuestras modernas habitaciones están listas para impresionar.</p>
+        </div>
+    </div>
+
+    <script>
+        // Aquí puedes agregar cualquier funcionalidad en JavaScript para el banner
+        console.log('Banner cargado correctamente');
+    </script>
+</body>
+
+
+
+
+
+
+<div class="hm-page-block">
+    <div class="container">
+        <div class="header-title">
+            <h1  data-aos="fade-up" data-aos-duration="3000"> LUGARES DESTACADOS</h1>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="hm-grid-category">
+
+            <div class="grid-item" data-aos="fade-up" data-aos-duration="1000">
+                <a href="pestañas/Ubicaciones.html">
+                    <img src="img/ciudades-1.jpg" alt="">
+                    <div class="c-info">
+                        <h3>MAUI</h3>
+                    </div>
+                </a>
+            </div>
+
+            <div class="grid-item" data-aos="fade-up" data-aos-duration="1500">
+                <a href="pestañas/Ubicaciones.html">
+                    <img src="img/ciudades-2.jpg" alt="">
+                    <div class="c-info">
+                        <h3>HONOLULU</h3>
+                    </div>
+                </a>
+            </div>
+
+            <div class="grid-item" data-aos="fade-up" data-aos-duration="2000">
+                <a href="pestañas/Ubicaciones.html">
+                    <img src="img/ciudades-3.jpg" alt="">
+                    <div class="c-info">
+                        <h3>GENEVA</h3>
+                    </div>
+                </a>
+            </div>
+
+            <div class="grid-item" data-aos="fade-up" data-aos-duration="2500">
+                <a href="pestañas/Ubicaciones.html">
+                    <img src="img/ciudades-4.jpg" alt="">
+                    <div class="c-info">
+                        <h3>BARRANQUILLA</h3>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+         <!-- =================================
+           FOOTER
+        ================================== -->
+        <footer>
+            
+            <div class="container">
+
+                <div class="foo-row">
+                    <div class="foo-col">
+                        <h2>Suscríbete a nuestro catálogo</h2>
+                            <div class="f-input">
+                                <input type="text" placeholder="Ingrese su correo">
+                                <button type="submit"  class="hm-btn-round btn-primary"><i class="far fa-paper-plane"></i></button>
+                            </div>
+                        </form>
+
+                    </div>
+
+                    <div class="foo-col">
+                        <ul>
+                            <li><a href="pestañas/Ubicaciones.html">Ubicaciones</a></li>
+                            <li><a href="pestañas/Experiencias.html">Experiencias</a></li>
+                            <li><a href="pestañas/Tienda.html">Tienda</a></li>
+                            <li><a href="pestañas/Nuestra-Historia.html">Nuestra Historia</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <br/>
+
+
+<!-- Footer con redes sociales -->
+<footer class="footer" style="background-color: #dbdf00; padding: 20px; text-align: center; width: 100%;">
+    <h5 style="margin-bottom: 20px;">Síguenos en nuestras redes sociales</h5>
+    <div>
+        <a href="https://www.facebook.com" target="_blank" style="margin: 0 15px; color: #333; font-size: 24px;">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://x.com" target="_blank" style="margin: 0 15px; color: #333; font-size: 24px;">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank" style="margin: 0 15px; color: #333; font-size: 24px;">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com" target="_blank" style="margin: 0 15px; color: #333; font-size: 24px;">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </div>
+</footer>
+
+        <div class="foo-copy">
+            <div class="container">
+                <p>Julliet 2024 © Todos los derechos reservados</p>
+            </div>
+        </div>
+    
+    <!-- Animaciones : AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Mi Script -->
+    <script src="js/app.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1200,
+        })
+    </script>
+</footer>
+</body>
+</html>
